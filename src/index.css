@@ -3,6 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    font-size: large;
+    line-height: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,7 +15,7 @@ body {
 }
 
 body {
-  background-color: #7cc6fe;
+  background-color: #3697e6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +25,7 @@ body {
 .app {
   background-color: #252d4a;
   width: 450px;
-  min-height: 200px;
+  min-height: 400px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
@@ -38,14 +40,17 @@ body {
 }
 
 .question-text {
+  
   margin-top: 15px;
+  margin-right: 15px;
+  
 }
 
 .answer-section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 button {
@@ -58,7 +63,7 @@ button {
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #234668;
+  border: 5px solid #1286e4;
   cursor: pointer;
 }
 
